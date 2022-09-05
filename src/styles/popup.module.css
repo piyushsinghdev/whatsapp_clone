@@ -1,0 +1,16 @@
+
+.table {
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-size: large;
+    border-collapse: collapse;
+    background-color:white;
+    cursor: pointer;
+    position: absolute;
+    right:10px
+}
+tr:hover{
+    background-color:#ededed;
+}

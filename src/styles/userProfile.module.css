@@ -1,0 +1,26 @@
+.img{
+    height:50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.profile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #ededed;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.icon{
+  font-size:30px;
+}
+.icons{
+  display: flex;
+  flex-direction:row;
+  width: 150px;
+  align-items: center;
+  
+  justify-content:space-between;
+  
+}

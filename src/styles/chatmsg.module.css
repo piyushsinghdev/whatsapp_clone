@@ -1,0 +1,31 @@
+.msg{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 5px 5px;
+    
+}
+.chatmsg{
+    background-color:#D9FDD3;
+    max-width: 50%;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px 10px;
+    border-radius: 10px;
+}
+
+.msg1{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    margin: 5px 5px;
+}
+
+.chatmsg1{
+    background-color:white;
+    max-width: 50%;
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px 10px;
+    border-radius: 10px;
+}
