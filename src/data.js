@@ -1,614 +1,756 @@
-export const usersdata=[
-{
-id: 1,
-email: "george.bluth@reqres.in",
-first_name: "George",
-last_name: "Bluth",
-avatar: "https://reqres.in/img/faces/1-image.jpg",
-message:[
-    {
-        id: 1,
+export const usersdata = [
+  {
+    id: 1,
+    email: "george.bluth@reqres.in",
+    first_name: "George",
+    last_name: "Bluth",
+    avatar: "https://reqres.in/img/faces/1-image.jpg",
+    message: [
+      {
         messageType: "TEXT",
         text: "Hey Man 😁",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:1,
+        replyID:null,
       },
       {
-        id: 2,
         messageType: "TEXT",
         text: "Hey, What's up?",
         senderID: 1,
-        addedOn: "12:01 PM",
+        messageID:2, 
+        replyID:null,
+       
       },
       {
-        id: 3,
         messageType: "TEXT",
         text: "All Good, What about you?",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:3,
+        replyID:null,
+
+
       },
       {
-        id: 4,
         messageType: "TEXT",
         text: "I'm good as well",
         senderID: 1,
-        addedOn: "12:00 PM",
+        messageID:4,
+        replyID:null,
+
+
       },
       {
-        id: 5,
         messageType: "TEXT",
         text: "Great 😁",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:5,
+        replyID:null,
+
+
       },
       {
-        id: 5,
         messageType: "TEXT",
         text: "NIce to Meet you ?",
         senderID: 1,
-        addedOn: "12:00 PM",
+        messageID:6,
+        replyID:null,
+
+
       },
- ]
-},
-{
-"id": 2,
-"email": "janet.weaver@reqres.in",
-"first_name": "Janet",
-"last_name": "Weaver",
-"avatar": "https://reqres.in/img/faces/2-image.jpg",
-message:[
-    {
-        id: 1,
+    ]
+  },
+  {
+    id: 2,
+    email: "janet.weaver@reqres.in",
+    first_name: "Janet",
+    last_name: "Weaver",
+    avatar: "https://reqres.in/img/faces/2-image.jpg",
+    message: [
+      {
         messageType: "TEXT",
         text: "Hey Man 😁",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:1,
+        replyID:null,
+
+
       },
       {
-        id: 2,
         messageType: "TEXT",
         text: "Hey, What's up?",
         senderID: 1,
-        addedOn: "12:01 PM",
+        messageID:2,
+        replyID:null,
+
+
       },
       {
-        id: 3,
         messageType: "TEXT",
         text: "All Good, What about you?",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:3,
+        replyID:null,
+
       },
       {
-        id: 4,
         messageType: "TEXT",
         text: "I'm good as well",
         senderID: 1,
-        addedOn: "12:00 PM",
+        messageID:4,
+        replyID:null,
+
+
       },
       {
-        id: 5,
         messageType: "TEXT",
         text: "Great 😁",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:5,
+        replyID:null,
+
+
       },
       {
-        id: 5,
         messageType: "TEXT",
         text: "NIce to Meet you ?",
         senderID: 1,
-        addedOn: "12:00 PM",
+        messageID:6,
+        replyID:null,
+
+
       },
- ]
-},
-{
-"id": 3,
-"email": "emma.wong@reqres.in",
-"first_name": "Emma",
-"last_name": "Wong",
-"avatar": "https://reqres.in/img/faces/3-image.jpg",
-message:[
-    {
-        id: 1,
+    ]
+  },
+  {
+    id: 3,
+    email: "emma.wong@reqres.in",
+    first_name: "Emma",
+    last_name: "Wong",
+    avatar: "https://reqres.in/img/faces/3-image.jpg",
+    message: [
+      {
         messageType: "TEXT",
         text: "Hey Man 😁",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:1,
+        replyID:null,
+
+
       },
       {
-        id: 2,
         messageType: "TEXT",
         text: "Hey, What's up?",
         senderID: 1,
-        addedOn: "12:01 PM",
+        messageID:2,
+        replyID:null,
+
+
       },
       {
-        id: 3,
         messageType: "TEXT",
         text: "All Good, What about you?",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:3,
+        replyID:null,
+
+
       },
       {
-        id: 4,
         messageType: "TEXT",
         text: "I'm good as well",
         senderID: 1,
-        addedOn: "12:00 PM",
+        messageID:4,
+        replyID:null,
+
+
       },
       {
-        id: 5,
         messageType: "TEXT",
         text: "Great 😁",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:5,
+        replyID:null,
+
+
       },
       {
-        id: 5,
         messageType: "TEXT",
         text: "NIce to Meet you ?",
         senderID: 1,
-        addedOn: "12:00 PM",
+        messageID:6,
+        replyID:null,
+
+
       },
- ]
-},
-{
-"id": 4,
-"email": "eve.holt@reqres.in",
-"first_name": "Eve",
-"last_name": "Holt",
-"avatar": "https://reqres.in/img/faces/4-image.jpg",
-message:[
-    {
-        id: 1,
+    ]
+  },
+  {
+    id: 4,
+    email: "eve.holt@reqres.in",
+    first_name: "Eve",
+    last_name: "Holt",
+    avatar: "https://reqres.in/img/faces/4-image.jpg",
+    message: [
+      {
         messageType: "TEXT",
         text: "Hey Man 😁",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:1,
+        replyID:null,
+
+
       },
       {
-        id: 2,
         messageType: "TEXT",
         text: "Hey, What's up?",
         senderID: 1,
-        addedOn: "12:01 PM",
+        messageID:2,
+        replyID:null,
+
+
       },
       {
-        id: 3,
         messageType: "TEXT",
         text: "All Good, What about you?",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:3,
+        replyID:null,
+
+
       },
       {
-        id: 4,
         messageType: "TEXT",
         text: "I'm good as well",
         senderID: 1,
-        addedOn: "12:00 PM",
+        messageID:4,
+        replyID:null,
+
+
       },
       {
-        id: 5,
         messageType: "TEXT",
         text: "Great 😁",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:5,
+        replyID:null,
+
+
       },
       {
-        id: 5,
         messageType: "TEXT",
         text: "NIce to Meet you ?",
         senderID: 1,
-        addedOn: "12:00 PM",
+        messageID:6,
+        replyID:null,
+
+
       },
- ]
-},
-{
-"id": 5,
-"email": "charles.morris@reqres.in",
-"first_name": "Charles",
-"last_name": "Morris",
-"avatar": "https://reqres.in/img/faces/5-image.jpg",
-message:[
-    {
-        id: 1,
+    ]
+  },
+  {
+    id: 5,
+    email: "charles.morris@reqres.in",
+    first_name: "Charles",
+    last_name: "Morris",
+    avatar: "https://reqres.in/img/faces/5-image.jpg",
+    message: [
+      {
         messageType: "TEXT",
         text: "Hey Man 😁",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:1,
+        replyID:null,
+
+
       },
       {
-        id: 2,
         messageType: "TEXT",
         text: "Hey, What's up?",
         senderID: 1,
-        addedOn: "12:01 PM",
+        messageID:2,
+        replyID:null,
+
+
       },
       {
-        id: 3,
         messageType: "TEXT",
         text: "All Good, What about you?",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:3,
+        replyID:null,
+
+
       },
       {
-        id: 4,
         messageType: "TEXT",
         text: "I'm good as well",
         senderID: 1,
-        addedOn: "12:00 PM",
+        messageID:4,
+        replyID:null,
+
+
       },
       {
-        id: 5,
         messageType: "TEXT",
         text: "Great 😁",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:5,
+        replyID:null,
+
+
       },
       {
-        id: 5,
         messageType: "TEXT",
         text: "NIce to Meet you ?",
         senderID: 1,
-        addedOn: "12:00 PM",
+        messageID:6,
+        replyID:null,
+
+
       },
- ]
-},
-{
-"id": 6,
-"email": "tracey.ramos@reqres.in",
-"first_name": "Tracey",
-"last_name": "Ramos",
-"avatar": "https://reqres.in/img/faces/6-image.jpg",
-message:[
-    {
-        id: 1,
+    ]
+  },
+  {
+    id: 6,
+    email: "tracey.ramos@reqres.in",
+    first_name: "Tracey",
+    last_name: "Ramos",
+    avatar: "https://reqres.in/img/faces/6-image.jpg",
+    message: [
+      {
         messageType: "TEXT",
         text: "Hey Man 😁",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:1,
+        replyID:null,
+
+
       },
       {
-        id: 2,
         messageType: "TEXT",
         text: "Hey, What's up?",
         senderID: 1,
-        addedOn: "12:01 PM",
+        messageID:2,
+        replyID:null,
+
+
       },
       {
-        id: 3,
         messageType: "TEXT",
         text: "All Good, What about you?",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:3,
+        replyID:null,
+
+
       },
       {
-        id: 4,
         messageType: "TEXT",
         text: "I'm good as well",
         senderID: 1,
-        addedOn: "12:00 PM",
+        messageID:4,
+        replyID:null,
+
+
       },
       {
-        id: 5,
         messageType: "TEXT",
         text: "Great 😁",
         senderID: 0,
-        addedOn: "12:00 PM",
+        messageID:5,
+        replyID:null,
+
+
       },
       {
-        id: 5,
         messageType: "TEXT",
         text: "NIce to Meet you ?",
         senderID: 1,
-        addedOn: "12:00 PM",
+        messageID:6,
+        replyID:null,
+
+
       },
- ]
-},
-{
-    "id": 7,
-    "email": "michael.lawson@reqres.in",
-    "first_name": "Michael",
-    "last_name": "Lawson",
-    "avatar": "https://reqres.in/img/faces/7-image.jpg",
-    message:[
-        {
-            id: 1,
-            messageType: "TEXT",
-            text: "Hey Man 😁",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 2,
-            messageType: "TEXT",
-            text: "Hey, What's up?",
-            senderID: 1,
-            addedOn: "12:01 PM",
-          },
-          {
-            id: 3,
-            messageType: "TEXT",
-            text: "All Good, What about you?",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 4,
-            messageType: "TEXT",
-            text: "I'm good as well",
-            senderID: 1,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 5,
-            messageType: "TEXT",
-            text: "Great 😁",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 5,
-            messageType: "TEXT",
-            text: "NIce to Meet you ?",
-            senderID: 1,
-            addedOn: "12:00 PM",
-          },
-     ]
-    },
-    {
-    "id": 8,
-    "email": "lindsay.ferguson@reqres.in",
-    "first_name": "Lindsay",
-    "last_name": "Ferguson",
-    "avatar": "https://reqres.in/img/faces/8-image.jpg",
-    message:[
-        {
-            id: 1,
-            messageType: "TEXT",
-            text: "Hey Man 😁",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 2,
-            messageType: "TEXT",
-            text: "Hey, What's up?",
-            senderID: 1,
-            addedOn: "12:01 PM",
-          },
-          {
-            id: 3,
-            messageType: "TEXT",
-            text: "All Good, What about you?",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 4,
-            messageType: "TEXT",
-            text: "I'm good as well",
-            senderID: 1,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 5,
-            messageType: "TEXT",
-            text: "Great 😁",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 5,
-            messageType: "TEXT",
-            text: "NIce to Meet you ?",
-            senderID: 1,
-            addedOn: "12:00 PM",
-          },
-     ]
-    },
-    {
-    "id": 9,
-    "email": "tobias.funke@reqres.in",
-    "first_name": "Tobias",
-    "last_name": "Funke",
-    "avatar": "https://reqres.in/img/faces/9-image.jpg",
-    message:[
-        {
-            id: 1,
-            messageType: "TEXT",
-            text: "Hey Man 😁",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 2,
-            messageType: "TEXT",
-            text: "Hey, What's up?",
-            senderID: 1,
-            addedOn: "12:01 PM",
-          },
-          {
-            id: 3,
-            messageType: "TEXT",
-            text: "All Good, What about you?",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 4,
-            messageType: "TEXT",
-            text: "I'm good as well",
-            senderID: 1,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 5,
-            messageType: "TEXT",
-            text: "Great 😁",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 5,
-            messageType: "TEXT",
-            text: "NIce to Meet you ?",
-            senderID: 1,
-            addedOn: "12:00 PM",
-          },
-     ]
-    },
-    {
-    "id": 10,
-    "email": "byron.fields@reqres.in",
-    "first_name": "Byron",
-    "last_name": "Fields",
-    "avatar": "https://reqres.in/img/faces/10-image.jpg",
-    message:[
-        {
-            id: 1,
-            messageType: "TEXT",
-            text: "Hey Man 😁",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 2,
-            messageType: "TEXT",
-            text: "Hey, What's up?",
-            senderID: 1,
-            addedOn: "12:01 PM",
-          },
-          {
-            id: 3,
-            messageType: "TEXT",
-            text: "All Good, What about you?",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 4,
-            messageType: "TEXT",
-            text: "I'm good as well",
-            senderID: 1,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 5,
-            messageType: "TEXT",
-            text: "Great 😁",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 5,
-            messageType: "TEXT",
-            text: "NIce to Meet you ?",
-            senderID: 1,
-            addedOn: "12:00 PM",
-          },
-     ]
-    },
-    {
-    "id": 11,
-    "email": "george.edwards@reqres.in",
-    "first_name": "George",
-    "last_name": "Edwards",
-    "avatar": "https://reqres.in/img/faces/11-image.jpg",
-    message:[
-        {
-            id: 1,
-            messageType: "TEXT",
-            text: "Hey Man 😁",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 2,
-            messageType: "TEXT",
-            text: "Hey, What's up?",
-            senderID: 1,
-            addedOn: "12:01 PM",
-          },
-          {
-            id: 3,
-            messageType: "TEXT",
-            text: "All Good, What about you?",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 4,
-            messageType: "TEXT",
-            text: "I'm good as well",
-            senderID: 1,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 5,
-            messageType: "TEXT",
-            text: "Great 😁",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 5,
-            messageType: "TEXT",
-            text: "NIce to Meet you ?",
-            senderID: 1,
-            addedOn: "12:00 PM",
-          },
-     ]
-    },
-    {
-    "id": 12,
-    "email": "rachel.howell@reqres.in",
-    "first_name": "Rachel",
-    "last_name": "Howell",
-    "avatar": "https://reqres.in/img/faces/12-image.jpg",
-    message:[
-        {
-            id: 1,
-            messageType: "TEXT",
-            text: "Hey Man 😁",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 2,
-            messageType: "TEXT",
-            text: "Hey, What's up?",
-            senderID: 1,
-            addedOn: "12:01 PM",
-          },
-          {
-            id: 3,
-            messageType: "TEXT",
-            text: "All Good, What about you?",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 4,
-            messageType: "TEXT",
-            text: "I'm good as well",
-            senderID: 1,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 5,
-            messageType: "TEXT",
-            text: "Great 😁",
-            senderID: 0,
-            addedOn: "12:00 PM",
-          },
-          {
-            id: 5,
-            messageType: "TEXT",
-            text: "NIce to Meet you ?",
-            senderID: 1,
-            addedOn: "12:00 PM",
-          },
-     ]
-    }
+    ]
+  },
+  {
+    id: 7,
+    email: "michael.lawson@reqres.in",
+    first_name: "Michael",
+    last_name: "Lawson",
+    avatar: "https://reqres.in/img/faces/7-image.jpg",
+    message: [
+      {
+        messageType: "TEXT",
+        text: "Hey Man 😁",
+        senderID: 0,
+        messageID:1,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "Hey, What's up?",
+        senderID: 1,
+        messageID:2,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "All Good, What about you?",
+        senderID: 0,
+        messageID:3,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "I'm good as well",
+        senderID: 1,
+        messageID:4,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "Great 😁",
+        senderID: 0,
+        messageID:5,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "NIce to Meet you ?",
+        senderID: 1,
+        messageID:6,
+        replyID:null,
+
+
+      },
+    ]
+  },
+  {
+    id: 8,
+    email: "lindsay.ferguson@reqres.in",
+    first_name: "Lindsay",
+    last_name: "Ferguson",
+    avatar: "https://reqres.in/img/faces/8-image.jpg",
+    message: [
+      {
+        messageType: "TEXT",
+        text: "Hey Man 😁",
+        senderID: 0,
+        messageID:1,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "Hey, What's up?",
+        senderID: 1,
+        messageID:2,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "All Good, What about you?",
+        senderID: 0,
+        messageID:3,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "I'm good as well",
+        senderID: 1,
+        messageID:4,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "Great 😁",
+        senderID: 0,
+        messageID:5,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "NIce to Meet you ?",
+        senderID: 1,
+        messageID:6,
+        replyID:null,
+
+
+      },
+    ]
+  },
+  {
+    id: 9,
+    email: "tobias.funke@reqres.in",
+    first_name: "Tobias",
+    last_name: "Funke",
+    avatar: "https://reqres.in/img/faces/9-image.jpg",
+    message: [
+      {
+        messageType: "TEXT",
+        text: "Hey Man 😁",
+        img: "https://reqres.in/img/faces/8-image.jpg",
+        senderID: 0,
+        messageID:1,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "Hey, What's up?",
+        senderID: 1,
+        messageID:2,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "All Good, What about you?",
+        senderID: 0,
+        messageID:3,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "I'm good as well",
+        senderID: 1,
+        messageID:4,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "Great 😁",
+        senderID: 0,
+        messageID:5,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "NIce to Meet you ?",
+        senderID: 1,
+        messageID:6,
+        replyID:null,
+
+
+      },
+    ]
+  },
+  {
+    id: 10,
+    email: "byron.fields@reqres.in",
+    first_name: "Byron",
+    last_name: "Fields",
+    avatar: "https://reqres.in/img/faces/10-image.jpg",
+    message: [
+      {
+        messageType: "TEXT",
+        text: "Hey Man 😁",
+        senderID: 0,
+        messageID:1,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "Hey, What's up?",
+        senderID: 1,
+        messageID:2,
+
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "All Good, What about you?",
+        senderID: 0,
+        messageID:3,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "I'm good as well",
+        senderID: 1,
+        messageID:4,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "Great 😁",
+        senderID: 0,
+        messageID:5,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "NIce to Meet you ?",
+        senderID: 1,
+        messageID:6,
+        replyID:null,
+
+
+      },
+    ]
+  },
+  {
+    id: 11,
+    email: "george.edwards@reqres.in",
+    first_name: "George",
+    last_name: "Edwards",
+    avatar: "https://reqres.in/img/faces/11-image.jpg",
+    message: [
+      {
+        messageType: "TEXT",
+        text: "Hey Man 😁",
+        senderID: 0,
+        messageID:1,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "Hey, What's up?",
+        senderID: 1,
+        messageID:2,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "All Good, What about you?",
+        senderID: 0,
+        messageID:3,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "I'm good as well",
+        senderID: 1,
+        messageID:4,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "Great 😁",
+        senderID: 0,
+        messageID:5,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "NIce to Meet you ?",
+        senderID: 1,
+        messageID:6,
+        replyID:null,
+
+
+      },
+    ]
+  },
+  {
+    id: 12,
+    email: "rachel.howell@reqres.in",
+    first_name: "Rachel",
+    last_name: "Howell",
+    avatar: "https://reqres.in/img/faces/12-image.jpg",
+    message: [
+      {
+        messageType: "TEXT",
+        text: "Hey Man 😁",
+        senderID: 0,
+        messageID:1,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "Hey, What's up?",
+        senderID: 1,
+        messageID:2,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "All Good, What about you?",
+        senderID: 0,
+        messageID:3,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "I'm good as well",
+        senderID: 1,
+        messageID:4,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "Great 😁",
+        senderID: 0,
+        messageID:5,
+        replyID:null,
+
+
+      },
+      {
+        messageType: "TEXT",
+        text: "NIce to Meet you ?",
+        senderID: 1,
+        messageID:6,
+        replyID:null,
+
+
+      },
+    ]
+  }
 ]

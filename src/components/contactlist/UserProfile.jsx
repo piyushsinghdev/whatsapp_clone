@@ -1,12 +1,13 @@
 import style from "../../styles/userProfile.module.css";
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import Popup from 'reactjs-popup';
-import PopupTable from "./PopupTable";
 import MessageIcon from '@mui/icons-material/Message';
 import DataUsageOutlinedIcon from '@mui/icons-material/DataUsageOutlined';
+import PopupTable from "../PopupTable";
 
 const UserProfile = () => {
 
+    const table=["New Group","staredMessage","settings","Logout"]
 
 
 
@@ -24,7 +25,7 @@ const UserProfile = () => {
                 </div>
                 <div>
                     <Popup position="bottom" trigger={<MoreVertIcon className={style.icon} />}>
-                        <PopupTable />
+                        <PopupTable data={table}  style="200px"/>
                     </Popup>
                 </div>
 

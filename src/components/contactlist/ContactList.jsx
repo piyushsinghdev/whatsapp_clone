@@ -1,23 +1,20 @@
-import UserProfile from "./UserProfile"
 import style from '../../styles/contactList.module.css'
 import SearchBar from "./SearchBar"
+import UserProfile from "./UserProfile"
 import Users from "./Users"
 import { useEffect, useState } from "react"
 import { useStoreState } from 'easy-peasy';
-import { useStoreActions } from 'easy-peasy';
+import { Link } from "react-router-dom"
 
 
 const ContactList = () => {
    const [searchUser, setSearchUser] = useState("")
-   const usersInfo = useStoreState((state) => state.userInfo);
-   //const user = useStoreState((state) => state.user);
-   const userData = useStoreActions((actions) => actions.userClick);
+   const usersInfo = useStoreState((state) => state.userInfo[0]);
    const [userList, setUserList] = useState(usersInfo)
 
 
 
    useEffect(() => {
-
       let users = userList;
       searchUser ?
          setUserList(users.filter((user) => user.first_name.toLowerCase().includes(searchUser.toLowerCase())))
@@ -29,27 +26,32 @@ const ContactList = () => {
       setSearchUser(e.target.value)
    }
 
-   const userClickHandler = (user) => {
-      userData(user)
-   }
+  
 
    return (
       <div className={style.container}>
 
-         <UserProfile />
+         <UserProfile/>
 
          <SearchBar value={searchUser} searchHandler={searchHandler} />
 
-         <div className={style.div} >
 
-            {userList && userList.map((user,index) => (
+            <div className={style.div} >
 
-               <Users key={index} userInfo={user} userClickHandler={userClickHandler} />
-            ))}
+               {userList && userList.map((user, index) => (
+                   
+                   <Link to={`/user/${user.id}`} key={index} style={{ "textDecoration": "none", "color": "black" }}>
 
-            {!userList.length && <div>User Not Found</div>}
 
-         </div>
+                  <Users  userInfo={user}  />
+
+                  </Link>
+
+               ))}
+
+               {!userList.length && <div>User Not Found</div>}
+
+            </div>
 
       </div>
    )

@@ -3,6 +3,7 @@
     background-color: #ededed;
     bottom: 0px;
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
 
@@ -12,7 +13,7 @@
     height: 30px;
     font-size: large;
     border: none;
-    margin: 10px;
+    margin:5px;
     border-radius: 20px;
     padding:10px;
 }
